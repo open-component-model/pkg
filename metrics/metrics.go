@@ -11,11 +11,33 @@ import (
 )
 
 const (
+	// MPASStatusStarted signifies that an MPAS installation has been started.
+	MPASStatusStarted = "started"
+	// MPASStatusSuccess signifies that an MPAS installation has been finished successfully.
+	MPASStatusSuccess = "success"
+	// MPASStatusFailure signifies that an MPAS installation has failed.
+	MPASStatusFailure = "failure"
+)
+
+const (
 	// MPASProductInstallationCounterLabel tracks mpas product installation counts and status.
 	MPASProductInstallationCounterLabel = "mpas_product_installed"
 
 	// MPASProductInstallationCounterStatusLabel tracks mpas product installation counts and status.
 	MPASProductInstallationCounterStatusLabel = "mpas_product_status"
+)
+
+const (
+	// MPASProductComponentVersionCounterLabel tracks the status of a component version belonging to a product.
+	MPASProductComponentVersionCounterLabel = "mpas_component_version_installed"
+	// MPASProductLocalizationCounterLabel tracks the status of a localization belonging to a product.
+	MPASProductLocalizationCounterLabel = "mpas_localization_installed"
+	// MPASProductConfigurationCounterLabel tracks the status of a configuration belonging to a product.
+	MPASProductConfigurationCounterLabel = "mpas_configuration_installed"
+	// MPASProductDeployerCounterLabel tracks the status of a deployer belonging to a product.
+	MPASProductDeployerCounterLabel = "mpas_deployer_installed"
+	// MPASProductResourceCounterLabel tracks the status of a resource belonging to a product.
+	MPASProductResourceCounterLabel = "mpas_resource_installed"
 )
 
 // MustRegisterCounter creates and registers a counter.
