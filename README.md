@@ -1,6 +1,8 @@
 # open-component-model common `pkg`
 
-This repository contains a collection of standard functionality to share amongst open-component-model repositories.
+> **Note:** This repository is scheduled for deprecation. Its only active consumer is [ocm-controller](https://github.com/open-component-model/ocm-controller).
+
+This repository contains shared Go packages used by OCM Kubernetes controllers.
 
 ## Metrics
 
@@ -35,14 +37,19 @@ misaligned or not given correctly.
 
 Certain constants are also defined in order to make all metrics uniform across the controllers.
 
-## Support, Feedback, Contributing
+## Contributing
 
-This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/SAP/pkg/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
+Contribution and feedback are encouraged and always welcome. For more information about how to contribute, see our [Contributing Guide](https://ocm.software/community/contributing/).
 
 ## Code of Conduct
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone. By participating in this project, you agree to abide by its [Code of Conduct](CODE_OF_CONDUCT.md) at all times.
+OCM follows the [NeoNephos Code of Conduct](https://github.com/neonephos/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Licensing
 
-Copyright (2024-) SAP SE or an SAP affiliate company and pkg contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information, including third-party components and their licensing/copyright information, is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/pkg).
+Please see our [LICENSE](LICENSE) for copyright and license information.
+Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/open-component-model/pkg).
+
+---
+
+<p align="center"><img alt="Bundesministerium für Wirtschaft und Energie (BMWE)-EU funding logo" src="https://apeirora.eu/assets/img/BMWK-EU.png" width="400"/></p>
